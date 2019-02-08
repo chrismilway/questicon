@@ -1,0 +1,22 @@
+$black: #000;
+$white: #fff;
+
+$font: Aleo, serif;
+
+$regular: 400;
+$bold: 700;
+
+.unmargin {
+	margin: 0;
+}
+
+.unpad {
+	padding: 0;
+}
+
+.unlist {
+	@extend .unmargin;
+	@extend .unpad;
+
+	list-style: none;
+}
