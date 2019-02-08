@@ -2,9 +2,11 @@
   "name": "questicon",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://chrismilway.github.io/questicon",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "deploy": "npm run build; gh-pages -d dist",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -21,6 +23,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "style-resources-loader": "^1.2.1",
