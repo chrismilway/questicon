@@ -1,7 +1,8 @@
 $black: #000;
 $white: #fff;
 
-$font: Aleo, serif;
+$font: Alegreya, serif;
+$smallcaps: "Alegreya SC", $font;
 
 $regular: 400;
 $bold: 700;
@@ -19,4 +20,9 @@ $bold: 700;
 	@extend .unpad;
 
 	list-style: none;
+}
+
+.smallcaps {
+	font-family: $smallcaps;
+	text-transform: lowercase;
 }

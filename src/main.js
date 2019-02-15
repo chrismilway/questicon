@@ -7,7 +7,7 @@ Vue.config.productionTip = false
 
 WebFont.load({
 	google: {
-		families: ['Aleo:400,400i,700'],
+		families: ['Alegreya:400,400i|Alegreya+SC'],
 	},
 })
 

@@ -26,6 +26,7 @@ export default {
 	padding: 1rem;
 	display: flex;
 	color: $white;
+	flex-grow: 0;
 
 	&--light {
 		color: $black;

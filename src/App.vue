@@ -25,12 +25,17 @@ export default {
 </script>
 
 <style lang="scss">
+:root {
+	font-size: 18px;
+}
+
 body {
 	@extend .unmargin;
 	@extend .unpad;
 
 	box-sizing: border-box;
 	font-family: $font;
+	line-height: 1;
 
 	& * {
 		box-sizing: inherit;
