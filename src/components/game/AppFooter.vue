@@ -40,5 +40,6 @@ export default {
 	flex-grow: 0;
 	display: flex;
 	flex-flow: column nowrap;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, .25);
 }
 </style>

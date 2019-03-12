@@ -9,12 +9,6 @@ export function initGame(data, qid) {
 	const game = clone(data);
 	game.qid = qid;
 	game.node = 0;
-	game.player = {
-		name: null,
-		stats: {},
-		money: 0,
-		items: [],
-	};
 	game.status = 'active';
 	return game;
 }

@@ -12,6 +12,16 @@ const Store = new Vuex.Store({
 				name: 'Foo quest',
 				original: {
 					nodes: [],
+					player: {
+						name: '',
+						stats: {
+							skill: [null, 6],
+							stamina: [null, null, 12],
+							luck: [null, 6],
+						},
+						items: [],
+						created: false,
+					},
 				},
 				games: {},
 				theme: {
@@ -52,6 +62,10 @@ const Store = new Vuex.Store({
 		},
 		updateNode: (state, update) => {
 			Object.assign(Store.getters.node, update);
+		},
+		createPlayer: (state, player) => {
+			player.created = true;
+			Store.getters.quest.player = player;
 		},
 		updatePlayer: (state, update) => {
 			Object.assign(Store.getters.player, update);

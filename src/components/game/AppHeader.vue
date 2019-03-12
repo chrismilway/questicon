@@ -27,6 +27,7 @@ export default {
 	display: flex;
 	color: $white;
 	flex-grow: 0;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, .75);
 
 	&--light {
 		color: $black;
